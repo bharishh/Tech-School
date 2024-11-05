@@ -1,0 +1,23 @@
+@font-face
+{
+    font-family: 'ROTO';
+    src: url(/fonts/ROTOREB_.TTF) format('truetype');
+}
+
+
+body, html
+{
+    font-family:'ROTO';
+    text-transform: uppercase;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    line-height: 1.6; /* interlignage */
+    letter-spacing: 0.2rem; /* 1px */
+    align-items: center;
+    background-color: var(--bg-color);
+}
+

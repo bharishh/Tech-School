@@ -1,0 +1,101 @@
+@import url(reset.css);
+
+:root
+{
+    --bg-color : #110436ff;
+}
+ h1
+{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 7px rgb(225, 59, 87);
+    font-size: 65px;
+}
+
+h2
+{
+    text-align: center;
+    color: rgb(230, 230, 114);
+    font-size: 35px;
+
+}
+
+.container
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.soleil
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.soleil img
+{
+    width: 118rem;
+}
+
+.nuage2
+{
+    position: absolute;
+    top: 25px;
+    z-index: 2; /* mettre en avant */
+}
+
+.nuage2 img
+{
+    width: 120rem;
+    height: auto;
+    opacity: 1; /* effet trans */
+}
+
+.nuage1
+{
+    position: absolute;
+    top: 30px;
+    left: 28rem;
+}
+
+.nuage1 img 
+{
+    width: 90rem;
+    height: auto;
+    opacity: 1;
+}
+
+.ecran
+{
+    position: absolute;
+    top: 17rem;
+    left: 23rem;   
+}
+
+.ecran img
+{
+    width:  74rem ; /* Taille de l'image de l'écran */
+    height: auto;
+}
+
+.classement 
+{
+    position: absolute;
+    top: 2rem; 
+    width: 100%;
+    color: rgb(95, 163, 80);
+    font-size: 33px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem; /* Espace de chaque côté pour éviter de toucher les bords */
+}
+
+.classement table tbody td
+{
+    width: 20rem;
+    padding: 1rem ;    
+}
+
+
+
